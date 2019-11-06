@@ -1,0 +1,102 @@
+.first
+	margin-top: 75px
+	margin-bottom: 60px
+	&-subtitle
+		font-size: 40px
+		font-family: 'PB'
+		+pb
+		letter-spacing: 1px
+		margin: 0
+		margin-bottom: 10px
+	&-title
+		+pb
+		font-size: 64px
+		letter-spacing: 1.7px
+		margin: 0
+		margin-bottom: 40px
+	&-about
+		max-width: 570px
+		color: #afafaf
+		font-size: 18px
+		line-height: 1.6
+		letter-spacing: 0.2px
+		margin: 0
+		margin-bottom: 30px
+	&-prem
+		color: #b02000
+		margin-bottom: 20px
+		font-size: 18px
+		display: block
+	&-date
+		font-size: 24px
+		letter-spacing: 0.2px
+		display: block
+		margin-bottom: 50px
+	&-btn
+		font-size: 14px
+		text-transform: uppercase
+		font-weight: 300
+		color: #fff
+		background: none
+		border: none
+		letter-spacing: 0.4px
+		padding: 25px 35px
+		padding-right: 85px
+		position: relative
+		border-radius: 40px
+		cursor: pointer
+		background: linear-gradient(90deg, #FB641A 0%, #FC3309 100%)
+		&::after
+			content: ''
+			width: 80px
+			height: 80px
+			position: absolute
+			right: 0
+			bottom: 0
+			transform: translate(7.5px, 7.5px)
+			background-color: rgba(#fff, 0.3)
+			border-radius: 50%
+			transition: 0.4s ease-in-out
+		&:hover::after
+			box-shadow: 0 10px 40px #222
+	&-icon
+		height: 100%
+		width: 65px
+		border-radius: 50%
+		position: absolute
+		right: 0
+		top: 0
+		background-color: #fff
+		img
+			position: absolute
+			left: 50%
+			top: 50%
+			transform: translate(-55%, -58%)
+
+@media (max-width: 691px)
+	.first
+		margin-top: 35px
+		margin-bottom: 50px
+		&-subtitle
+			font-size: 24px
+		&-title
+			font-size: 36px
+			margin-bottom: 15px
+		&-about
+			font-size: 16px
+			margin-bottom: 20px
+			color: #eee
+			text-shadow: 0 2px 6px #222
+		&-prem
+			font-size: 16px
+			margin-bottom: 15px
+		&-date
+			font-size: 20px
+			margin-bottom: 25px
+
+@media (max-width: 319.98px)
+	.first-btn
+		padding-left: 22px
+
+
+		

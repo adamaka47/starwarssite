@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Starwars</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/main.min.css">
+
+    <!-- work with that -->
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+</head>
+<body>
+
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal__close">
+                &times;
+            </div>
+            <h4 class="modal__title">
+                Смотреть трейлер онлайн!
+            </h4>
+            <iframe src="https://www.youtube.com/embed/KVRBfWQgyuY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    <div class="container">
+        <header class="header" id="header">
+            <a href="index.html" class="header-logo"><img src="img/logo.png" alt="Logotype"></a>
+            <nav class="header-nav">
+                <a href="https://afisha.yandex.ru/kazan/cinema/zvezdnye-voiny-epizod-9?schedule-date=2019-12-19" class="header-nav__link" target="_blank">Билеты</a>
+                <a href="https://ru.wikipedia.org/wiki/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D0%BD%D1%8B%D0%B5_%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B:_%D0%A1%D0%BA%D0%B0%D0%B9%D1%83%D0%BE%D0%BA%D0%B5%D1%80._%D0%92%D0%BE%D1%81%D1%85%D0%BE%D0%B4" class="header-nav__link" target="_blank">О фильме</a>
+                <a href="https://www.kinopoisk.ru/film/6695/" class="header-nav__link" target="_blank">Отзывы</a>
+                <a href="#first" class="header-nav__link" id="last-link">Галлерея</a>
+            </nav>
+        </header>
+        <main>
+            <div class="first" id="first">
+                <span class="first-subtitle">
+                    Эпизод XX
+                </span>
+                <h1 class="first-title">
+                    Скайуокер. Закат.
+                </h1>
+                <p class="first-about">
+                    Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже более 20 лет, и обещает дать ответы на все загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры, увлекательные путешествия на край Галактики и грандиозный финал фантастической саги
+                </p>
+                <span class="first-prem">Премьера</span>
+                <span class="first-date">14 декабря 2019 года</span>
+                <button class="btn first-btn">
+                    Смотреть трейлер
+                    <span class="icon first-icon"><img src="img/rect.svg" alt="Icon"></span>
+                </button>
+            </div>
+            <article class="category">
+                <h3 class="category-title">
+                    Предыдущие эпизоды
+                </h3>
+                <div class="category-slider">
+                    <div class="category-item category-item__1">
+                        <span class="category-item__date">1977</span>
+                        <span class="category-item__episode">Эпизод IV:</span>
+                        <span class="category-item__name">Новая надежда</span>
+                        <div class="category-rating">
+                            <div class="category-rating__text">Рейтинг</div>
+                            <div class="category-item__images">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-item category-item__2">
+                        <span class="category-item__date">1980</span>
+                        <span class="category-item__episode">Эпизод V:</span>
+                        <span class="category-item__name">Удар империи</span>
+                        <div class="category-rating">
+                            <div class="category-rating__text">Рейтинг</div>
+                            <div class="category-item__images">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star_empty.svg" alt="Star">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-item category-item__3">
+                        <span class="category-item__date">1983</span>
+                        <span class="category-item__episode">Эпизод VI:</span>
+                        <span class="category-item__name">Возвращение джедая</span>
+                        <div class="category-rating">
+                            <div class="category-rating__text">Рейтинг</div>
+                            <div class="category-item__images">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star_empty.svg" alt="Star">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-item category-item__4">
+                        <span class="category-item__date">1999</span>
+                        <span class="category-item__episode">Эпизод VII:</span>
+                        <span class="category-item__name">Скрытая угроза</span>
+                        <div class="category-rating">
+                            <div class="category-rating__text">Рейтинг</div>
+                            <div class="category-item__images">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-item category-item__2">
+                        <span class="category-item__date">1977</span>
+                        <span class="category-item__episode">Эпизод IV:</span>
+                        <span class="category-item__name">Новая надежда</span>
+                        <div class="category-rating">
+                            <div class="category-rating__text">Рейтинг</div>
+                            <div class="category-item__images">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="category-item category-item__1">
+                        <span class="category-item__date">1977</span>
+                        <span class="category-item__episode">Эпизод IV:</span>
+                        <span class="category-item__name">Новая надежда</span>
+                        <div class="category-rating">
+                            <div class="category-rating__text">Рейтинг</div>
+                            <div class="category-item__images">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star.svg" alt="Star">
+                                <img src="img/star_empty.svg" alt="Star">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrows">
+                    <button class="arrow arrow_left">
+                        <img src="img/arrow_left.svg" alt="Arrow">
+                    </button>
+                    <button class="arrow arrow_right">
+                        <img src="img/arrow_right.svg" alt="Arrow">
+                    </button>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/script.js"></script>
+      <script>
+          document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.btn').onclick = function(e) {
+                document.querySelector('.modal').classList.add('active')
+                document.body.style.overflow = 'hidden'
+            }
+            document.querySelector('.modal__close').onclick = e => {
+                document.querySelector('.modal').classList.remove('active')
+                document.body.style.overflow = ''
+            }
+          })
+      </script>
+</body>
+</html>

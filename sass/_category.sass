@@ -1,0 +1,125 @@
+.category
+	padding-bottom: 110px
+	.slick-slide
+		outline: none
+	.arrows
+		margin-top: 35px
+	.arrow
+		background: transparent
+		border: none
+		cursor: pointer
+		outline: none
+	&-title
+		font-size: 18px
+		letter-spacing: 0.2px
+		line-height: 1.4
+		margin: 0
+		margin-bottom: 40px
+	&-slider
+		display: flex
+		justify-content: space-between
+	&-item
+		max-width: 22%
+		padding: 30px
+		background-color: indigo
+		border-radius: 15px
+		margin-left: 15px
+		&:first-child
+			margin-left: 0
+		&__1
+			background: #aaa url('../img/cat1.png') center no-repeat
+			background-size: 160% 160%
+			position: relative
+			z-index: 2
+			&::after
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				background-color: rgba(#505050, 0.8)
+				border-radius: 15px
+				z-index: -1
+		&__2
+			background: #aaa url('../img/cat2.png') center no-repeat
+			background-size: 160% 160%
+			position: relative
+			z-index: 2
+			&::after
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				background-color: rgba(#505050, 0.8)
+				border-radius: 15px
+				z-index: -1
+		&__3
+			background: #aaa url('../img/cat3.png') center no-repeat
+			background-size: 160% 160%
+			position: relative
+			z-index: 2
+			&::after
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				background-color: rgba(#505050, 0.8)
+				border-radius: 15px
+				z-index: -1
+		&__4
+			background: #aaa url('../img/cat4.png') center no-repeat
+			background-size: 160% 160%
+			position: relative
+			z-index: 2
+			&::after
+				content: ''
+				position: absolute
+				top: 0
+				left: 0
+				width: 100%
+				height: 100%
+				background-color: rgba(#505050, 0.8)
+				border-radius: 15px
+				z-index: -1
+		&__date
+			font-weight: 300
+			font-size: 18px
+			display: block
+			margin-bottom: 12px
+		&__episode
+			+pb
+			font-size: 18px
+			letter-spacing: 0.4px
+			display: block
+			margin-bottom: 10px
+		&__name
+			+pb
+			font-size: 18px
+			font-weight: 700
+			display: block
+			letter-spacing: 0.4px
+			margin-bottom: 45px
+		&__images
+			display: flex
+	&-rating
+		display: flex
+		align-items: center
+		flex-wrap: wrap
+		&__text
+			margin-right: 17px
+			font-size: 13px
+
+@media (max-width: 540px)
+	.category
+		padding-bottom: 65px
+		&-item
+			margin-left: 0 
+		&-title
+			margin-bottom: 25px
+
+
